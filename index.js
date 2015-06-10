@@ -13,7 +13,7 @@ var httpServer = http.Server(app);
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/servercode.html');
 });
-app.listen(8080);
+//app.listen(8080);
 
 /*app.get(' ', function(request, response){
 response.sendfile('sample.html');
