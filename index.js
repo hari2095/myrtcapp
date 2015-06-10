@@ -11,7 +11,7 @@ var httpServer = http.Server(app);
 //app.use(express.static(__dirname+'/node-js-getting-started'));
 
 app.get('/', function(req, res){
-    res.sendFile(__dirname + '/servercode.html');
+    res.sendFile('servercode.html');
 });
 //app.listen(8080);
 
